@@ -8,20 +8,45 @@
     <meta content="description" name="description">
     <meta name="google" content="notranslate" />
     <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
-    <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-
-    <!-- <link href="./assets/favicon.ico" rel="icon"> -->
 
     <title>My Resume</title>
 
-    <link href="style.css" rel="stylesheet">
+    <link href="port.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="background-color-layer" style="background-image: url('./edited.jpg')">
+    <script>$(window).scroll(function () {
+            if ($(document).scrollTop() > 100) {
+                $('nav').addClass('animate');
+            } else {
+                $('nav').removeClass('animate');
+            }
+        })</script>
+    <div class="background-color-layer" style="background-image: url('./img/edited.jpg')">
     </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resNav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img class="hlm" src="./img/hlm logo.jpeg"></a>
+            <a href="#" class="navbar-brand" style="padding:15px;">Humans Like Machine</a>
+        </div>
+        <div class="collapse navbar-collapse" id="resNav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Socials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script type="text/javascript" src="https://popupsmart.com/freechat.js"></script>
+    <script> window.start.init({ title: "Hi there ✌️", message: "How may we help you? Just send us a message now to get assistance.", color: "#9C58CE", position: "right", placeholder: "Enter your message", withText: "Write with", viaWhatsapp: "Or write us directly via Whatsapp", gty: "Go to your", awu: "and write us", connect: "Connect now", button: "Write us", device: "everywhere", logo: "https://d2r80wdbkwti6l.cloudfront.net/sCWJpjIDN3jGoJlfCPkwDsiIHMkjsjE8.jpg", person: "https://d2r80wdbkwti6l.cloudfront.net/5lEfKPADmPWPNFzfVcy2uUFHA9HsHSJo.jpg", services: [{ "name": "whatsapp", "content": "+919156806641" }, { "name": "sms", "content": "+919156806641" }, { "name": "telegram", "content": "+918080058890" }, { "name": "mail", "content": "shreyash3wakte@gmail.com" }, { "name": "phone", "content": "+918080058890" }] })</script>
     <main class="content-wrapper">
         <header class="white-text-container section-container">
             <div class="text-center">
@@ -53,7 +78,7 @@
                             <h2>About me</h2>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <p><img src="./passport photo.jpg" class="img-responsive" alt=""></p>
+                                    <p><img src="./img/passport photo.jpg" class="img-responsive" alt=""></p>
                                 </div>
                                 <div class="col-md-8">
 
@@ -65,6 +90,10 @@
                                         can learn new skills, expand my knowledge, and leverage my learnings.</P>
                                     <p>I am verygood at problem solving and team work, I am a fast learner and can adapt
                                         to any situation very easyly.</p>
+                                    <a href="https://drive.google.com/file/d/1GK_mK7b2Mo3FjJV64gmvwVQy0Lo2Hx5N/view?usp=sharing"
+                                        download>
+                                        <button type="submit" class=" btn btn-primary" onclick="">Download CV</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -74,17 +103,17 @@
                             <h2>Projects</h2>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="./spam-email-icon.jpg" class="img-responsive" alt="">
+                                    <img src="./img/spam-email-icon.jpg" class="img-responsive" alt="">
                                     <h3 class="h5">Spam Email Detection</h3>
                                     <p>March 2022</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="./images (3).jpg" class="img-responsive" alt="">
+                                    <img src="./img/images (3).jpg" class="img-responsive" alt="">
                                     <h3 class="h5">Text Emotion Detection</h3>
                                     <p>May 2022</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="./iris species.jpg" class="img-responsive" alt="">
+                                    <img src="./img/iris species.jpg" class="img-responsive" alt="">
                                     <h3 class="h5">Iris Species Detection</h3>
                                     <p>April 2022</p>
                                 </div>
@@ -221,6 +250,9 @@
                     </div>
                 </div>
             </div>
+            <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=8016907&style=0009&nbdigits=3&type=page&initCount=0"
+                    title="Free Counter" Alt="web counter" /></a>
         </div>
 
     </main>
