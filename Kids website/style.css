@@ -1,0 +1,189 @@
+.main{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.col1{
+    color: rgb(19, 18, 18);
+    height: 40vh;
+    background-image:url("./img/mobile-app.jpg");
+    background-size: cover;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    border-radius: .35rem;
+}
+.col1 p{
+    font-size: larger;
+}
+body{
+    background-color:rgba(240, 230, 140, 0.842);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+.col2{
+    margin-top: 5vh;
+    background-color:whitesmoke;
+    opacity: 0.9;
+    border-radius: .35rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    height: auto;
+    color: black;
+    font-weight: 400;
+}
+.col2 p{
+    font-size: large;
+}
+.col3{
+    margin-top: 3vh;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-radius: .35rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    height: auto;
+    color: black;
+    font-weight: 400;
+}
+.col3 p{
+    font-size: large;
+}
+.lifcy{
+    font-size: large;
+    line-height: 1.5em ;
+}
+.col4{
+    margin-top: 3vh;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-radius: .35rem;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+.col6{
+    margin-top: 3vh;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    /* text-align: justify; */
+    border-radius: .35rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    height: auto;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    height: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color:#000000;
+    font-size: 3vh;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 1;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .navbar{
+    padding: 0%;
+  }
+  .navbar-nav{
+    font-size: larger;
+    font-weight: 400;
+  }
+  .container-fluid{
+    border: 2px solid #000000;
+  }
+  .accordion-item{
+    background-color:gainsboro;
+  }
+  .accordion-button{
+    border: 1px solid #000000; 
+  }
